@@ -1,0 +1,70 @@
+﻿<!-- -------------------------------
+Daniel Cano
+January 20, 2019
+INFO 2220
+Jon Holmes
+Assignment1 - Part 1
+Purpose: This is a form page for submitting information to a server.        
+---------------------------------- -->
+
+
+
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+    <meta charset="utf-8" />
+    <title>Form</title>
+</head>
+<body>
+    <form action="http://teaching.jdholmes.net/postvget/reader/index.php" method="post">
+        
+        <input type="hidden" id="StudentId" name="StudentId" value="920942"/>
+        <label for="FirstName">First Name:</label>
+        <input type="text" id="FirstName" name="firstName" />
+        <label for="LastName">Last Name:</label>
+        <input type="text" id="LastName" name="lastName" />
+        <label for="Password">Security Key:</label>
+        <input type="password" id="Password" name="Security Key" />
+        <label for="FavoriteColor">Favorite Color:</label>
+        <select id="FavoriteColor" name="Color">
+            <option value="00F">Blue</option>
+            <option value="0F0">Green</option>
+            <option value="F00" selected="selected">Red</option>
+            <option value="000">Black</option>
+        </select>
+        <fieldset>
+            <legend>Day of the Week</legend>
+            <input type="radio" name="DayofWeek" value="Sunday" />
+            <label>Sunday</label>
+            <input type="radio" name="DayofWeek" value="Monday" />
+            <label>Monday</label>
+            <input type="radio" name="DayofWeek" value="Tuesday" />
+            <label>Tuesday</label>
+            <input type="radio" name="DayofWeek" value="Wednesday" />
+            <label>Wednesday</label>            
+            <input type="radio" name="DayofWeek" value="Thursday" />
+            <label>Thursday</label>
+            <input type="radio" name="DayofWeek" value="Friday" checked="checked"/>
+            <label>Friday</label>
+            <input type="radio" name="DayofWeek" value="Saturday" />
+            <label>Saturday</label>
+        </fieldset>
+        <fieldset>
+            <legend>Times</legend>
+            <input type="checkbox" name="ElevenAM" value="11AM"/>
+            <label>11:00 AM</label>
+            <input type="checkbox" name="TwelveAM" value="12AM" />
+            <label>12:00 AM</label>
+            <input type="checkbox" name="OnePM" value="1PM" />
+            <label>1:00 PM</label>
+            <input type="checkbox" name="TwoPM" value="2PM" />
+            <label>2:00 PM</label>
+            <input type="checkbox" name="ThreePM" value="3PM" />
+            <label>3:00 PM</label>
+        </fieldset>
+        <lable>Description:</lable>
+        <textarea name="Description" ></textarea>            
+        <input type="submit" id="Submission" value="Send To Server"/>
+    </form>
+</body>
+</html>

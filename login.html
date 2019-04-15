@@ -1,0 +1,56 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Login To FLT</title>
+    <link href="styles/login-improved.css" rel="stylesheet" />
+    <script src="scripts/jquery-3.3.1.js"></script>
+    <script src="scripts/login-script.js"></script>
+</head>
+<body>
+    <dir id="Login">
+        <dir class="LoginForm">
+            <label>UserName</label>
+            <input type="text" id="UserName" />
+            <lable>Password</lable>
+            <input type="password" id="Password" />
+            <input type="checkbox" id="RememberName" />
+            <label id="lblRememberName">Remember Name</label>
+            <dir class="Buttons">
+                <button id="btnLogin">Login</button>
+                <button id="btnForgetMe">Forget Me</button>
+            </dir>
+        </dir>
+
+        <dir class="UserForm">
+
+            <dir class="Information">
+                <lable>Name</lable>
+                <input type="text" id="Name" />
+                <label>Phone</label>
+                <input type="text" id="Phone"/>
+                <lable>Age</lable>
+                <input type="text" id="Age"/>
+            </dir>
+
+            <dir class="Group">
+                <ul id="GroupList">
+                    <li><input type="radio" id="Radio1" name="Group" value="1"/>Group 1</li>
+                    <li><input type="radio" id="Radio2" name="Group" value="2"/>Group 2</li>
+                    <li><input type="radio" id="Radio3" name="Group" value="3"/>Group 3</li>
+                </ul>
+            </dir>
+            
+            <dir class="Controls">
+                <button id="btnAddPerson">Add Person</button>
+                <button id="btnClearStorage">Clear Storage</button>
+                <a href="view-people.html">View Storage</a>
+                <ul id="people">
+
+                </ul>
+                <a href="index.html">Back to Assignment List</a>
+            </dir>
+        </dir>
+    </dir>
+</body>
+</html>

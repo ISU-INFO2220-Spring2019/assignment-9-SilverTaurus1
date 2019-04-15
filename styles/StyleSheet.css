@@ -1,0 +1,90 @@
+﻿/*
+Daniel Cano
+January 26, 2019
+INFO 2220
+Jon Holmes
+Assignment2 
+Purpose: Adds style to html page.        
+*/
+
+/* Import second stylesheet*/
+@import url('StyleSheet2.css');
+
+/* Elements */
+body {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding: 10px;
+}
+p {
+    padding: 2ex;
+}
+span {
+    font-weight: bold;
+
+}
+
+a {
+    color: #F80;
+}
+
+h1 {
+    font-size: 2em;
+    color: #F80;
+}
+
+h2 {
+    font-size: 1.8em;
+    color: #888;
+}
+
+h3 {
+    font-size: 1.6em;
+}
+
+th {
+    background-color: #F80;
+    color: #FFF;
+}
+
+tr {
+    font-size: .9em;
+    background-color: #EEE;
+}
+
+
+table span {
+    text-decoration: underline;
+}
+
+tr.other {
+    background-color: #DDD;
+}
+
+/* Classes */
+.success, .warning, .error {
+    border: solid;
+    border-width: 1px;
+    border-color: #AAA;
+    font-weight: bold;
+    padding: .3em;
+    margin: .3em;
+    
+}
+
+.success {
+    color: #008800;
+    background-color: #F0FFF0;
+    border-color: #008800;
+}
+
+.warning {
+    color: #888800;
+    background-color: #FFFFF0;
+    border-color: #888800;
+}
+
+.error {
+    color: #880000;
+    background-color: #FFF0F0;
+    border-color: #880000;
+}

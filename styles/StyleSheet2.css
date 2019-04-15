@@ -1,0 +1,39 @@
+﻿/*
+Daniel Cano
+January 26, 2019
+INFO 2220
+Jon Holmes
+Assignment2 
+Purpose: Adds style to html page.        
+*/
+
+/* Elements*/
+a:hover {
+    color: #888;
+}
+
+td:hover {
+    background-color: #000;
+    color: #FFF;
+    cursor: cell;
+}
+
+/* Classes */
+.success:before, .warning:before, .error:before {
+    content: "Message: ";
+}
+
+span.special {
+    font-weight: normal;
+    text-transform: uppercase;
+    text-decoration: overline;
+   
+}
+
+span.special:before {
+    content: open-quote;
+}
+
+span.special:after {
+    content: close-quote;
+}

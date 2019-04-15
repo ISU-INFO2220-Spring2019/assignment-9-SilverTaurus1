@@ -1,0 +1,80 @@
+﻿th{
+    background-color: #ff6a00;
+}
+tr{
+    background-color: #808080;
+}
+li {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    list-style-type: none;
+    margin-right: 80%;
+    margin-bottom: .5em;
+   
+}
+
+.Contacts{
+    border-width: 10px;
+    border-color: #000;
+    background-color: #e1c022;
+    text-align: center;   
+    
+}
+.Name{       
+    text-align: center;
+    margin-left: 110px;          
+}
+
+.Phone{
+    display: block;
+    text-align:center;  
+    margin-top: .25em;
+    border-width: 8px;
+    background-color:ActiveBorder;
+    margin-right: 70px;
+}
+
+.Age{    
+    float: right;
+    padding-right: .25em;
+}
+
+.Group{
+    float: right;
+    margin-right: .50em;
+
+}
+
+.Group1{
+    background-color: #e56b6b;
+    border-style: solid;
+    border-color: #000;
+    border-width: 5px, 5px, 5px, 5px;   
+    border-radius: 1em;
+    padding-left: 5px;
+    padding-top: 10px;
+    padding-bottom: 25px;    
+    
+}
+
+.Group2 {
+    background-color: #75d76a;
+    border-style: solid; 
+    border-color: #000;
+    border-radius: 1em;
+    padding-left: 5px;
+    padding-top: 10px;
+    padding-bottom: 25px;
+    border-width: 5px, 5px, 5px, 5px;
+   
+}
+
+.Group3 {
+    background-color: #6061d6;
+    border-style: solid;
+    border-color: #000;        
+    border-radius: 1em;
+    padding-left: 5px;
+    padding-top: 10px;
+    padding-bottom: 25px;
+    border-width: 5px, 5px, 5px, 5px;
+}

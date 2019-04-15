@@ -1,0 +1,128 @@
+﻿body {    
+    background-image: url('../images/corporate-wallpapers_597874055.jpg');
+    width: 960px;    
+}
+
+
+ul{
+    border:solid;
+    
+    border-color: #000;
+}
+#Login{
+    overflow: auto;  
+}
+
+.LoginForm {
+    float: left;
+    height: 15em;
+    width: 330px;
+    background-image: url('../images/name-abstract-illustration-globe-technology-wallpaper-widescreen.jpg');
+    border-radius: 1.5em;   
+    -moz-box-shadow: -5px 5px 5px 4px #000;
+    box-shadow: -5px 5px 5px 4px #000;   
+    padding-top: 20px;
+    padding-left: 160px;
+    font-weight: bold;
+}
+
+
+.LoginForm input{
+    display: block;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.UserForm{
+    float: left;
+    font-weight: bold;
+    overflow: auto;       
+    height: 100%;
+}
+
+.Information input{
+    display: block;
+}
+
+.Information, .Group, .Controls{    
+    width: 320px;
+    margin: 5px;
+ 
+}
+
+.Group li{
+    background-color: #45aced;
+    margin-bottom: 5px;
+}
+
+#RememberName{
+    display: inline;    
+}
+
+#btnLogin{    
+    width: 60px;        
+}
+
+.Buttons{
+    padding-left: 0px;
+}
+
+.Controls li:hover{
+    width: 270px;
+    height: 70px;
+    background-color: ActiveBorder;
+}
+
+li{
+    list-style-type: none;
+    width: 250px;
+    height: auto;
+    border: solid;   
+    border-radius: 5px;
+    border-color: #000;
+    margin-bottom: 25px;
+    
+}
+
+.Name{        
+    display:inline-block;
+    height: 25px;
+    margin-left: 25px;   
+}
+
+.Phone{
+    display: inline-block;
+    border: solid;
+    width: 200px;
+    margin-left: 25px; 
+    border-color: #000;
+    text-align: center;
+    background-color: #f9f8e5;
+    shape-margin:  100px;
+    margin-bottom: 10px;
+}
+
+.Age{
+    display: inline;
+    width: 100px;
+    margin-left: 25px;
+}
+
+.Group2{
+    background-color: #cd934f;
+}
+
+.Group3{
+    background-color: #8ce55a;
+}
+
+.Group1{
+    background-color: #ee9a63;
+}
+
+.GroupNumber{
+    margin-left: 10px;  
+    display: inline-block;
+    font-family: fantasy;
+}
+
